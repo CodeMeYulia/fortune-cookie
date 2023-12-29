@@ -1,3 +1,7 @@
+.cover{
+  /* background-color: aqua;   */
+}
+
 .coockie__container{
     background-image: url(./images/traditional-fortune-cookies-on-red-background_123827-25756.jpg);
     background-size: cover;
@@ -5,16 +9,15 @@
     display: flex;
     flex-direction: column;
     border-radius: 5%;
-    justify-content: space-evenly;
+    justify-content: center;
     max-width: 75%;
-    height: 850px;
+    height: 950px;
     margin: 60px 15%;
     align-items: center;
 }
 
 .top{
     height: 10%;
-    /* border: 3px dashed rgb(255, 255, 255); */
     padding: 10px;
 }
 
@@ -31,6 +34,7 @@
 }
 
 .takeyours{
+    background-color: rgb(241, 206, 5);
     border-radius: 50%;
     border: 8px dashed rgb(204, 24, 18);
     color: rgb(204, 24, 18);
@@ -42,7 +46,6 @@
 }
 
 .down{
-    /* border: 3px dashed rgb(255, 255, 255); */
     max-width: 85%;
     height: 10%;
     padding-bottom: 20px;
@@ -53,4 +56,10 @@ color: rgb(255, 255, 255);
 font-family: Caveat;
 text-align: center;
 font-size: 30px;
+}
+
+.made{
+    color: rgb(204, 24, 18);
+    text-align: center;
+    margin: 10px;
 }
