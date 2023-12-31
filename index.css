@@ -20,7 +20,7 @@
 .h1{
     color: rgb(255, 255, 255);
     font-family: Caveat;
-    font-size: 35px;
+    font-size: 35pt;
     text-align: center;
 }
 
@@ -43,7 +43,7 @@
 
 .down{
     max-width: 85%;
-    height: 10%;
+    min-height: 10%;
     padding-bottom: 20px;
 }
 
@@ -59,3 +59,51 @@ font-size: 30px;
     text-align: center;
     margin: 10px;
 }
+
+@media screen and (max-width: 992px){
+    .cover{
+        background-image: url(./images/traditional-fortune-cookies-on-red-background_123827-25756.jpg);
+        background-size: cover;
+        background-position: center;
+    }
+
+    .coockie__container{
+        background-image:none;
+        max-width: 100%;
+        min-height: 90%;
+        margin: 0;
+        justify-content: space-around
+    }
+    .top{
+        text-shadow: 1px 1px 2px rgb(143, 143, 143);
+    }
+    
+    .center{
+        padding: 30%;
+    }
+    
+    .takeyours{
+        width: 180px;
+        height: 180px;
+        font-size: 25pt;
+    }
+    
+    .down{
+        max-width: 90%;
+        min-height: 10%;
+        padding-bottom: 5px;
+    }
+    
+    .yours{
+    color: rgb(255, 255, 255);
+    font-family: Caveat;
+    text-align: center;
+    font-size: 30px;
+    text-shadow: 1px 1px 2px rgb(143, 143, 143);
+    }
+    
+    .made{
+        color: rgb(241, 76, 71);
+        margin: 0;
+    }
+} 
